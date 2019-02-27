@@ -6,3 +6,4 @@ sudo echo "deb-src http://nginx.org/packages/ubuntu/ $release nginx" >> /etc/apt
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys ABF5BD827BD9BF62
 sudo apt-get update
 sudo apt-get install nginx
+rm ei-install
